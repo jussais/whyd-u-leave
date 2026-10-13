@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHERE DID YOU GO RHEYAN</title>
+
+    <style>
+        body {
+            background: #0a0a0a;
+            color: #ff3030;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            animation: shake 0.15s infinite;
+        }
+
+        #messages {
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 1.8;
+            overflow-wrap: anywhere;
+        }
+
+        @keyframes shake {
+            0% { transform: translateX(-2px); }
+            50% { transform: translateX(2px); }
+            100% { transform: translateX(-2px); }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>RHEYAN WHERE ARE YOU 😭</h1>
+    <div id="messages"></div>
+
+    <script>
+        const messages = document.getElementById("messages");
+
+        for (let i = 0; i < 1000; i++) {
+            const line = document.createElement("div");
+            line.textContent = "rheyan why did you leave????????";
+            messages.appendChild(line);
+        }
+    </script>
+</body>
+</html>
+
